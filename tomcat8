@@ -29,8 +29,8 @@ export JAVA_HOME=/usr/lib/jvm/java-7-oracle
 #  -Xms512m -Xmx512m"
 export PATH=$JAVA_HOME/bin:$PATH
 
-TOMCAT_HOME=/opt/tomcat
-TOMCAT_USER=chetan
+TOMCAT_HOME=/usr/local/tomcat
+TOMCAT_USER=vagrant
 export CATALINA_PID=$TOMCAT_HOME/logs/tomcat.pid
 
 SHUTDOWN_WAIT=20
